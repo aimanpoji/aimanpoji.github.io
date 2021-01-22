@@ -4,13 +4,13 @@
 /* Global */
 body{
   height: calc(100vh - 8em);
-  padding: 4em;
+  padding: 1em;
 }
 .line-1{
     position: relative;  
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 3px solid rgba(255,255,255,.75);
     font-size: 200%;
     text-align: center;
     white-space: nowrap;
@@ -28,6 +28,6 @@ body{
   to{width: 24em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color:transparent;}
+  from{border-right-color:rgb(29, 247, 0);}
   to{border-right-color: transparent;}
 }
