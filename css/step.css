@@ -11,13 +11,12 @@ body{
   padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
-  background-color: rgb(25,25,25); 
-  display: inline-block; 
+  background-color: rgb(25,25,25);  
 }
 .line-1{
     position: relative;
     top: 50%;  
-    width: 17em;
+    width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
     font-size: 180%;
@@ -29,12 +28,12 @@ body{
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(17) 1s 1 normal both,
-             blinkTextCursor 500ms steps(17) infinite normal;
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 17em;}
+  to{width: 24em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}

@@ -1,10 +1,13 @@
 <header>
   <div>
+    <div>
     <link rel="stylesheet" href="../css/step.css">
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
     {% assign owner_first_name = site.owner | split: " " %}
     <p class="line-1 anim-typewriter">{{ owner_first_name[0] | downcase }}@home:~$</p>
     </a>
+    </div>
+
     <div class="header-links">
       {% include links.html %}
     </div>
