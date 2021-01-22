@@ -1,5 +1,5 @@
 ![lazy](?raw=true)
- This is the write-up for Pentest Technical Challenge for my job application. This web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating. This web is available open source. [Link](https://github.com/RamadhanAmizudin/lazyweb)
+ This is the write-up for Pentest Technical Challenge for my job application. This web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating. This web is available open source. Link: [https://github.com/RamadhanAmizudin/lazyweb](https://github.com/RamadhanAmizudin/lazyweb)
 ***
 ## Broken Authentication
 
