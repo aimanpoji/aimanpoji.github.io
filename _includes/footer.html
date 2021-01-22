@@ -1,7 +1,8 @@
 <footer>
   <link rel="stylesheet" href="../css/step.css">
   <a href="https://github.com/aimanpoji">
+  {% assign desc = site.description %}
   {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
-  <p class="line-1 anim-typewriter">{{ site.owner}}©{{ currentyear }}</p>
+  <p class="line-1 anim-typewriter">{{ site.owner}}©{{ currentyear }} {{ desc }}</p>
   </a>
 </footer>

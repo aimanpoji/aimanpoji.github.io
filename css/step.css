@@ -5,16 +5,13 @@
 body{
   height: calc(100vh - 8em);
   padding: 4em;
-  color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;  
-  background-color: rgb(25,25,25);  
 }
 .line-1{
     position: relative;  
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
+    font-size: 200%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -23,7 +20,7 @@ body{
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 10s steps(44) 1s 1 normal both,
+  animation: typewriter 5s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) both;
 }
 @keyframes typewriter{
