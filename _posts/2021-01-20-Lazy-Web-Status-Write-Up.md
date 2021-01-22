@@ -1,6 +1,9 @@
-![lazy](?raw=true)
+![lazy](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/lazyweb/Lazy.PNG?raw=true)
+
  This is the write-up for Pentest Technical Challenge for my job application. This web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating. This web is available open source. Link: [https://github.com/RamadhanAmizudin/lazyweb](https://github.com/RamadhanAmizudin/lazyweb)
+
 ***
+
 ## Broken Authentication
 
 Upon login, each user wil be set their own user_id. Which in my case my user_id is set to 5. 
