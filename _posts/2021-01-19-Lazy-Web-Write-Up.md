@@ -1,6 +1,6 @@
 ![lazy](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/lazyweb/Lazy.PNG?raw=true)
 
-# This is the write-up for a Penetration Testing Technical Challenge for my job application. The web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating. The web is now available open source. Link: [https://github.com/RamadhanAmizudin/lazyweb.](https://github.com/RamadhanAmizudin/lazyweb)
+## This is the write-up for a Penetration Testing Technical Challenge for my job application. The web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating. The web is now available open source. Link: [https://github.com/RamadhanAmizudin/lazyweb.](https://github.com/RamadhanAmizudin/lazyweb)
 
 ***
 
@@ -23,7 +23,7 @@
 
 ## 2. Sensitive Directories Exposed
 
-###In /backup directory there is a file named db.sql which contain sensitive informations, database name and tables names. Also phpinfo.php is exposed which have information about php used for this web. Robots.txt contain s3cretadm1n page for admins. POC as below:
+### In /backup directory there is a file named db.sql which contain sensitive informations, database name and tables names. Also phpinfo.php is exposed which have information about php used for this web. Robots.txt contain s3cretadm1n page for admins. POC as below:
 
 ### Nikto scan results
 
@@ -168,8 +168,8 @@
 ***
 
 #### Referrences: 
-##### 1. https://owasp.org/www-community/xss-filter-evasion-cheatsheet
-##### 2. https://www.jianshu.com/p/3b09ab7487e7 
-##### 3. https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion#lfi--rfi-using-wrappers
+##### [1. https://owasp.org/www-community/xss-filter-evasion-cheatsheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
+##### [2. https://www.jianshu.com/p/3b09ab7487e7](https://www.jianshu.com/p/3b09ab7487e7)
+##### [3. https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion#lfi--rfi-using-wrappers](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion#lfi--rfi-using-wrappers)
 
 
