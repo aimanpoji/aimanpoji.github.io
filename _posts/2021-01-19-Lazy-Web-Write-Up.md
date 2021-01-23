@@ -1,6 +1,6 @@
 ![lazy](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/lazyweb/Lazy.PNG?raw=true)
 
- # This is the write-up for a Penetration Testing Technical Challenge for my job application. The web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating. The web is now available open source. Link: [https://github.com/RamadhanAmizudin/lazyweb.](https://github.com/RamadhanAmizudin/lazyweb)
+ ## This is the write-up for a Penetration Testing Technical Challenge for my job application. The web application is a demonstration of common server-side application flaws. Each of the vulnerabilities has its own difficulty rating. The web is now available open source. Link: [https://github.com/RamadhanAmizudin/lazyweb.](https://github.com/RamadhanAmizudin/lazyweb)
 
 ***
 
