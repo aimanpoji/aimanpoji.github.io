@@ -156,7 +156,7 @@
 
 ### The url form in add-site.php is vulnerable to xss. POC as below:
 
-### The payload used was _\<a onmouseover="alert(document.cookie)"\>xxs link\</a\>_
+### The payload used was `\<a onmouseover="alert(document.cookie)"\>xxs link\</a\>`
 
 ![xss1](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/lazyweb/xss1.png?raw=true)
 
