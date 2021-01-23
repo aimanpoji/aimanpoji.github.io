@@ -22,7 +22,7 @@ title: About
 
 ## [Corporate Network - Prolab : DANTE](https://drive.google.com/file/d/15xI8apdELIlam2zOEAZz-Q4gPKJldzhq/view)
 ### by HackTheBox
-![aimanpoji](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/cert/dante.png?raw=true)
+![aimanpoji](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/cert/dante.PNG?raw=true)
 
 * * *
 
