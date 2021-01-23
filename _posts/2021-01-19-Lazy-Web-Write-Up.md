@@ -4,7 +4,7 @@
 
 ***
 
-## Broken Authentication
+## 1. Broken Authentication
 
 ### Upon login, each user wil be set their own user_id. Which in my case my user_id is set to 5. If we change the user_id value to other value, it will also change user. Proof of concept as below.
 
@@ -21,7 +21,7 @@
 
 ***
 
-## Sensitive Directories Exposed
+## 2. Sensitive Directories Exposed
 
 ###In /backup directory there is a file named db.sql which contain sensitive informations, database name and tables names. Also phpinfo.php is exposed which have information about php used for this web. Robots.txt contain s3cretadm1n page for admins. POC as below:
 
@@ -40,7 +40,7 @@
 
 ***
 
-## SQL Injection
+## 3. SQL Injection
 
 ### The email parameter in /user/login.php is vulnearable to time based blind injection. POC as below:
 
@@ -62,7 +62,7 @@
 
 ***
 
-## Local File Inclusion
+## 4. Local File Inclusion
 
 ### n /page.php, page parameter is vulnerable to LFI. The method used is lfi using wrapper and the wrapper used is php://filter. POC as below: 
 
@@ -76,7 +76,7 @@
 
 ***
 
-## Unrestricted file upload
+## 5. Unrestricted file upload
 
 ### Since we have lfi we can get the code for profile.php which has upload feature for user to change their profile picture. POC as below:
 
@@ -90,7 +90,7 @@
 
 ***
 
-## RCE from LFI
+## 6. RCE from LFI
 
 ### From phpinfo.php, phar wrapper is enabled. Phar pack files of a module into a package like .jar in java. We pack php shell file into phar file and upload it to get a command execution. POC as below:
 
@@ -116,7 +116,7 @@
 
 ***
 
-## Admin Authorization to normal user
+## 7. Admin Authorization to normal user
 
 ### In robot.txt we found a s3cretadm1n page. This page only allows admin to access. If we change normal user to have admin access, we as a normal user, we can access the page. POC as below:
 
@@ -144,7 +144,7 @@
 
 ***
 
-## OS Command Injection
+## 8. OS Command Injection
 
 ### Url form in add-site.php does not filter input from user. Fill in the url form with our payload then, click ping and our command will be injected. POC Below: 
 
@@ -152,7 +152,7 @@
 
 ***
 
-## Stored xss
+## 9. Stored xss
 
 ### The url form in add-site.php is vulnerable to xss. POC as below:
 
