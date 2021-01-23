@@ -20,6 +20,12 @@ title: About
 
 # Certificates
 
+## [Corporate Network - Prolab : DANTE](https://drive.google.com/file/d/15xI8apdELIlam2zOEAZz-Q4gPKJldzhq/view)
+### by HackTheBox
+![aimanpoji](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/cert/dante.png?raw=true)
+
+* * *
+
 ## [Blue Team Star Challenge](https://www.youracclaim.com/badges/102cfe7f-24f3-48af-89ef-3a8d46509bd7)
 ### by RangeForce
 ![aimanpoji](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/cert/final_blue_team_star_challenge.png?raw=true)
