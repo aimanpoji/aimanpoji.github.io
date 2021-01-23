@@ -168,8 +168,8 @@
 ***
 
 #### Referrences: 
-##### [1. https://owasp.org/www-community/xss-filter-evasion-cheatsheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
-##### [2. https://www.jianshu.com/p/3b09ab7487e7](https://www.jianshu.com/p/3b09ab7487e7)
-##### [3. https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion#lfi--rfi-using-wrappers](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion#lfi--rfi-using-wrappers)
+##### 1. [https://owasp.org/www-community/xss-filter-evasion-cheatsheet](https://owasp.org/www-community/xss-filter-evasion-cheatsheet)
+##### 2. [https://www.jianshu.com/p/3b09ab7487e7](https://www.jianshu.com/p/3b09ab7487e7)
+##### 3. [https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion#lfi--rfi-using-wrappers](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20Inclusion#lfi--rfi-using-wrappers)
 
 
