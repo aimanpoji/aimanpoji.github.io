@@ -12,12 +12,6 @@ title: About
 
 * * *
 
-# Badges
-![aimanpoji](http://www.hackthebox.eu/badge/image/152265)
-![aimanpoji](https://github.com/aimanpoji/aimanpoji/blob/main/P0j1.png?raw=true)
-
-* * *
-
 # Certificates
 
 ## [Corporate Network - Prolab : DANTE](https://drive.google.com/file/d/15xI8apdELIlam2zOEAZz-Q4gPKJldzhq/view)
