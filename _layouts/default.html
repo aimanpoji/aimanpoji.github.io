@@ -12,11 +12,6 @@
     </div>
   </div>
 
-<!-- Badge Code - Do Not Change The Code -->
-<a class="hitCounter" href="/" target="_blank" data-name="9b3f8fbb9c7cf33721d80de9fc83c076|4|page|1|rgb(0, 0, 0);|rgb(19, 255, 0);|large|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
-<!-- Badge Code End Here -->
-
-
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page == 1 %}
@@ -38,8 +33,9 @@
     {% endif %}
   </div>
 
+  <script src="https://www.hackthebox.eu/badge/152265"></script>
+  
   {% endif %} 
-    {% include badge.html %}
     {% include social.html %}
     {% include footer.html %}
   {% if site.google_analytics %}
