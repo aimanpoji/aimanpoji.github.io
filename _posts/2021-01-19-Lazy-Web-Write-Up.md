@@ -52,11 +52,11 @@
 
 ![sql3](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/lazyweb/sql3.png?raw=true)
 
-### Since we already know the database tables for `user` database, let just dump table `tbl_user`.
+### Since we already know the database tables for `user` database, let just dump table ``tbl_user``.
 
 ![sql4](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/lazyweb/sql4.png?raw=true)
 
-### List of some entries dumped in table `tbl_user`
+### List of some entries dumped in table ``tbl_user``
 
 ![sql5](https://github.com/aimanpoji/aimanpoji.github.io/blob/main/images/lazyweb/sql5.png?raw=true)
 
