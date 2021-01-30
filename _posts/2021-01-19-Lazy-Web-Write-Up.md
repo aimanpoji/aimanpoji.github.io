@@ -116,7 +116,7 @@
 
 ***
 
-## 7. Admin Authorization to normal user
+## 7. Privilege Escalation
 
 ### In robot.txt we found a s3cretadm1n page. This page only allows admin to access. If we change normal user to have admin access, we as a normal user, we can access the page. POC as below:
 
