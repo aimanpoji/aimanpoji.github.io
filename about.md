@@ -5,7 +5,7 @@ title: About
 
 # Hi there, I am Poji 👋
 
-- 🔭 Im a student and I like everything about cybersecurity
+- 🔭 I am currently working as penetration tester.
 - ⚡ Fun fact: I like coffee more than tea.
 - 🤝 Reach me at discord [_poji#1337](https://discordapp.com/users/_poji#1337) 
 - 🦃 Still Learning to Fly
