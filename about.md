@@ -5,7 +5,7 @@ title: About
 
 # Hi there, I am Poji 👋
 
-- 🔭 I am currently working as penetration tester.
+- 🔭 I am currently working as a penetration tester.
 - ⚡ Fun fact: I like coffee more than tea.
 - 🤝 Reach me at discord [_poji#1337](https://discordapp.com/users/_poji#1337) 
 - 🦃 Still Learning to Fly
