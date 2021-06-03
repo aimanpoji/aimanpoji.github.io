@@ -59,7 +59,7 @@
   }
 }
 
-p:hover{
+h2:hover{
     animation: glitch-text .2s steps(1) 6 alternate forwards,glitch-blink .6s steps(1) 2
 }
 
