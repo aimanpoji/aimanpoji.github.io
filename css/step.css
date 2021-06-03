@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .css-typing p {
-  border-right: .15em solid orange;
+  border-right: .15em solid #b5e853;
   font-family: 'Anonymous Pro', monospace;
   white-space: nowrap;
   overflow: hidden;
@@ -28,7 +28,7 @@
     opacity: 1;
   }
   99.9% {
-    border-right: .15em solid orange;
+    border-right: .15em solid #b5e853;
   }
   100% {
     opacity: 1;
@@ -44,7 +44,7 @@
     opacity: 1;
   }
   99.9% {
-    border-right: .15em solid orange;
+    border-right: .15em solid #b5e853;
   }
   100% {
     opacity: 1;
