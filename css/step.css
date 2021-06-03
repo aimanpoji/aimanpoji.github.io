@@ -3,8 +3,7 @@
 .css-typing p {
   font-family: 'Anonymous Pro', monospace;
   position: relative;
-  top: 50%;  
-  width: 24em;
+  top: 50%;
   margin: 0 auto;
   border-right: 2px solid rgba(255,255,255,.75);
   font-size: 180%;
@@ -17,8 +16,8 @@
 .css-typing p:nth-child(1) {
   width: 11.5em;
   opacity: 0;
-  -webkit-animation: type1 2s steps(40, end), blink .5s step-end infinite alternate;;
-  animation: type1 2s steps(40, end), blink .5s step-end infinite alternate;;
+  -webkit-animation: type1 2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type1 2s steps(40, end), blink .5s step-end infinite alternate;
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
@@ -60,9 +59,10 @@
   }
 }
 
-h1:hover{
+p:hover{
     animation: glitch-text .2s steps(1) 6 alternate forwards,glitch-blink .6s steps(1) 2
 }
+
 @keyframes glitch-text {
     25% {
         transform: skew(10deg) scaleX(1.05)
@@ -80,6 +80,7 @@ h1:hover{
         transform: skew(0) scaleX(1)
     }
 }
+
 @keyframes glitch-blink {
     50% {
         opacity: 0
