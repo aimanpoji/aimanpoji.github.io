@@ -1,10 +1,21 @@
 <header>
   <link rel="stylesheet" href="../css/step.css">
   <div>
-    <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
-    {% assign owner_first_name = site.owner | split: " " %}
-    <p class="line-1 anim-typewriter">blog@{{ owner_first_name[0] | downcase }}:~# </p>
-    </a>
+    <a href="typeWriter()"</a>
+    <p id="demo"></p>
+    <script>
+    var i = 0;
+    var txt = 'blog@aimanpoji:~$';
+    var speed = 50;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("demo").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    </script>
 
     <div class="header-links">
       {% include links.html %}
