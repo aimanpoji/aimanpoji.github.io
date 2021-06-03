@@ -1,16 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
 .css-typing p {
   border-right: .15em solid orange;
-  font-family: "Courier";
-  font-size: 14px;
+  font-family: 'Anonymous Pro', monospace;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 180%;
+  text-align: center;
 }
 
 .css-typing p:nth-child(1) {
   width: 11.5em;
   opacity: 0;
-  -webkit-animation: type1 2s steps(40, end);
-  animation: type1 2s steps(40, end);
+  -webkit-animation: type1 2s steps(40, end), blink .5s step-end infinite alternate;;
+  animation: type1 2s steps(40, end), blink .5s step-end infinite alternate;;
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
@@ -59,4 +62,34 @@
   50% {
     border-color: tranparent;
   }
+}
+
+h1:hover{
+    animation: glitch-text .2s steps(1) 6 alternate forwards,glitch-blink .6s steps(1) 2
+}
+@keyframes glitch-text {
+    25% {
+        transform: skew(10deg) scaleX(1.05)
+    }
+
+    50% {
+        transform: skew(-20deg) scaleX(1.08)
+    }
+
+    75% {
+        transform: skew(15deg)
+    }
+
+    to {
+        transform: skew(0) scaleX(1)
+    }
+}
+@keyframes glitch-blink {
+    50% {
+        opacity: 0
+    }
+
+    75% {
+        opacity: 1
+    }
 }
