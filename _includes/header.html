@@ -1,9 +1,9 @@
 <header>
   <link rel="stylesheet" href="../css/step.css">
-  <div>
+  <div class="line-1 typewriter">
     <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
     {% assign owner_first_name = site.owner | split: " " %}
-    <p class="line-1 typewriter">blog@{{ owner_first_name[0] | downcase }}:~$ </p>
+    <p>blog@{{ owner_first_name[0] | downcase }}:~$ </p>
     </a>
 
     <div class="header-links">
